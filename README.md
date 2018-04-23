@@ -4,7 +4,6 @@ Here's my python script to parse through play by play NBA data and turn it into 
 
 ##### Necessary Modules
 - Requests
-- BeautifulSoup
 
 ##### Access JSON Link
 - load play by play page for the game you want
@@ -12,7 +11,7 @@ Here's my python script to parse through play by play NBA data and turn it into 
 - go to the network tab (there should be another tab under network called XHR -- make sure its highlighted)
 - look for a link that says "playbyplayv2?..." (if there's nothing there reload the page)
 - save the request URL that pops up to the right once you click the "playbyplayv2" link
-- example "https://stats.nba.com/stats/playbyplayv2?EndPeriod=10&EndRange=55800&GameID=0041700104&RangeType=2&Season=2017-18&SeasonType=Playoffs&StartPeriod=1&StartRange=0"
+- example - https://stats.nba.com/stats/playbyplayv2?EndPeriod=10&EndRange=55800&GameID=0041700104&RangeType=2&Season=2017-18&SeasonType=Playoffs&StartPeriod=1&StartRange=0
 
 ##### Running the Script
 - open terminal
